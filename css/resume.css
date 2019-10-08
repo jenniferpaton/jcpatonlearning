@@ -190,3 +190,11 @@ a {
 a:hover, a:focus, a:active {
   color: #824027;
 }
+
+q {
+  color: #BD5D38;
+  font-style: italic;
+  text-align: center;
+  padding-left: 17rem;
+  padding-right: 17rem;
+}
