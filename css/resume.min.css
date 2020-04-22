@@ -201,8 +201,8 @@ div.quote {
   color: #5dd0b9;
   font-style: italic;
   text-align: center;
-  padding-left: 10rem;
-  padding-right: 10rem;
+  padding-left: 20;
+  padding-right: 20;
 }
 
 .no-gutters {
