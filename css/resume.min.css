@@ -39,6 +39,54 @@ p.lead{
 	font-weight:400
 }
 
+blockquote {
+	border-left: 3px solid #628FA1;
+	color: #9089AC;
+	font-style: italic;
+	font-size: 1rem;
+	line-height: 1.8em;
+	margin-left: 2em;
+	margin-right: 2em;
+ 	padding: 1em 2em;
+  	position: relative;
+} 	
+blockquote:before{
+    content: "\275D";
+    position: absolute;
+    font-family: "'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'";
+    font-size: 2rem;
+    font-weight: bold;
+    top: 00%;
+    left: 0.5em;
+    height: 2em;
+    width: 5px;
+    margin-top: 0em;
+} 
+blockquote:after{
+    content: "\275E";
+    position: absolute;
+    top: 100%;
+    left: 95%;
+    font-family: "'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'";
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 1em;
+    text-indent: -2px;
+    width: 1em;
+    margin-top: -1.5em;
+}
+
+cite{
+	color: #9089AC;
+	font-style: italic;
+	font-size: 0.9rem;
+	text-align: right;
+	position: absolute;
+	left: 60%;
+
+}
+
+
 .subheading{
 	text-transform:uppercase;
 	font-weight:500;
